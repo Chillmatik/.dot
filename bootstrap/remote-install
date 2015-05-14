@@ -8,7 +8,7 @@
 DOT_INSTALL_DIR="$HOME/.dotfiles"
 
 mkdir -p $DOT_INSTALL_DIR && \
-  curl -L https://github.com/sds/dot/tarball/master | \
+  curl -L https://github.com/z3usy/dot/tarball/master | \
   tar xz --strip 1 -C $DOT_INSTALL_DIR
 
 (cd $DOT_INSTALL_DIR && ./install)

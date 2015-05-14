@@ -81,8 +81,6 @@
 [core]
   autocrlf     = input
   excludesfile = ~/.gitignore
-[github]
-  user = sds
 [grep]
   extendedRegexp = true
   lineNumber     = true
