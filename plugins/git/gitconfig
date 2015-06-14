@@ -99,3 +99,5 @@
   enabled = 1
 [include]
   path = ~/.gitconfig.local
+[branch "master"]
+	rebase = true
