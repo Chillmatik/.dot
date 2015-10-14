@@ -8,6 +8,9 @@
 --ignore-dir=coverage
 --ignore-dir=.meteor/local
 --ignore-dir=_site
+--ignore-dir=.kitchen
+--ignore-dir=.rbenv
+--ignore-dir=.berkshelf
 --type-add=css=.sass,.scss
 --type-add=ruby=.erb,.haml,.rake,.rb,.rhtml,.rjs,.rxml,.rsel,.spec
 --type-set=conf=.conf,.cfg,.ini
