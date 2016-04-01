@@ -143,7 +143,7 @@ plugins as general as possible.
 The following environment variables are useful when writing plugins:
 
 * `DOTDIR`: Location of the Dot repository. If you installed using the
-  instructions above, this would be `$HOME/.dotfiles`, with `$HOME`
+  instructions above, this would be `$HOME/.dot`, with `$HOME`
   appropriately expanded
 
 * `DOTPLUGIN`: Location of the plugin running the currently plugin code.
@@ -166,7 +166,7 @@ Dot was motivated by the desire to:
   configurations
 
 * Provide a way to gracefully degrade from `zsh` to `bash` in the event
-  `zsh` wasn't available (likely when using dotfiles on multiple systems)
+  `zsh` wasn't available (likely when using dot on multiple systems)
 
 * Allow easy switching between shells when pair programming (for example
   if one pair prefers `bash`)
