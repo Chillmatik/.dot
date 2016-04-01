@@ -11,6 +11,10 @@
 --ignore-dir=.kitchen
 --ignore-dir=.rbenv
 --ignore-dir=.berkshelf
+--ignore-dir=.npm
+--ignore-dir=.heroku
+--ignore-dir=.cache
+--ignore-dir=.dot
 --type-add=css=.sass,.scss
 --type-add=ruby=.erb,.haml,.rake,.rb,.rhtml,.rjs,.rxml,.rsel,.spec
 --type-set=conf=.conf,.cfg,.ini
