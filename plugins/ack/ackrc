@@ -15,6 +15,7 @@
 --ignore-dir=.heroku
 --ignore-dir=.cache
 --ignore-dir=.dot
+--ignore-file=match:capistrano.log
 --type-add=css=.sass,.scss
 --type-add=ruby=.erb,.haml,.rake,.rb,.rhtml,.rjs,.rxml,.rsel,.spec
 --type-set=conf=.conf,.cfg,.ini
